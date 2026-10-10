@@ -105,8 +105,10 @@ MCP server. It is distributed by OutSystems (see [`LICENSE`](LICENSE)) and is in
 so the build is reproducible. `SKILL.md` is the authoritative contract; the `reference/`,
 `examples/`, and `docs/` folders are supporting material.
 
-> The MCP write capabilities used here (`applyModelApiCode`, `omlMerge`, `omlPublish`, …)
-> are an OutSystems Beta Feature.
+> **Beta Feature.** The MCP write tools used here — `applyModelApiCode`, `omlMerge`,
+> `omlReset`, `omlRefreshReferences`, and `omlPublish` — are an OutSystems Beta Feature.
+> The read/inspection tools (`listApps`, `getDataModel`, `get*`, …) are Generally
+> Available. See the [Beta Features Agreement](https://www.outsystems.com/legal/beta-features-agreement).
 
 ---
 
